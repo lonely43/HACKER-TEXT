@@ -1,8 +1,6 @@
 const background = document.querySelector(".container");
 const text = document.getElementById("text");
 
-let delta = null;
-
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 setInterval(() => {
