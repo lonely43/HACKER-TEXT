@@ -9,9 +9,6 @@ const words = ["LIVE","KILL UR SELF","FORGIVE","KILL","CRY","NEVERMIND","FORGET"
 setInterval(() => {
    background.classList.toggle("dark")
    delta += 1
-   //text.innerText = text.innerText.split("").map((i) => {
-   //   return letters[Math.floor(Math.random() * 26)]
-   //}).join("")
 
    if(delta >= words.length){
       delta = 0
